@@ -1,0 +1,5 @@
+D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/FinancialDashboard.dir
+D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/FinancialDashboard_autogen_timestamp_deps.dir
+D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/FinancialDashboard_autogen.dir
