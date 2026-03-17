@@ -333,9 +333,75 @@
 	"HEADERS" : 
 	[
 		[
-			"D:/Kavaro_decktop/src/FinancialDashboard.h",
+			"D:/Kavaro_decktop/src/Auth/login/login.h",
 			"Mu",
-			"UVLADIE3JM/moc_FinancialDashboard.cpp",
+			"T2HZXW23YN/moc_login.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.h",
+			"Mu",
+			"ILZJBPZS6B/moc_LineChart.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MetricCard.h",
+			"Mu",
+			"ILZJBPZS6B/moc_MetricCard.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.h",
+			"Mu",
+			"ILZJBPZS6B/moc_MiniCalendar.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.h",
+			"Mu",
+			"ILZJBPZS6B/moc_OrderStatusChart.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.h",
+			"Mu",
+			"ILZJBPZS6B/moc_StatusBarChart.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/Sidebar.h",
+			"Mu",
+			"YDV4KI56OW/moc_Sidebar.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/TopNavbar.h",
+			"Mu",
+			"YDV4KI56OW/moc_TopNavbar.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.h",
+			"Mu",
+			"QUIXWSF4PW/moc_FinancialDashboard.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.h",
+			"Mu",
+			"2C4II7KIPD/moc_AllOrdersPage.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.h",
+			"Mu",
+			"2C4II7KIPD/moc_OverviewPage.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.h",
+			"Mu",
+			"2C4II7KIPD/moc_STLUploadsPage.cpp",
 			null
 		]
 	],
@@ -364,6 +430,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"D:/Kavaro_decktop/src/Screens/Dashboard",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Pages",
+		"D:/Kavaro_decktop/src/Auth/login",
 		"D:/Qt/6.10.2/mingw_64/include/QtCore",
 		"D:/Qt/6.10.2/mingw_64/include",
 		"D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++",
@@ -409,7 +480,62 @@
 	"SETTINGS_FILE" : "D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/FinancialDashboard_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/Kavaro_decktop/src/FinancialDashboard.cpp", "Mu", null ],
+		[ "D:/Kavaro_decktop/src/Auth/login/login.cpp", "Mu", null ],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/Sidebar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/TopNavbar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.cpp",
+			"Mu",
+			null
+		],
 		[ "D:/Kavaro_decktop/src/main.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : true,

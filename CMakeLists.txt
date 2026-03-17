@@ -9,7 +9,26 @@ find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
 add_executable(FinancialDashboard
     src/main.cpp
-    src/FinancialDashboard.cpp
+    src/Auth/login/login.cpp
+    src/Screens/Dashboard/FinancialDashboard.cpp
+    src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp
+    src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp
+    src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp
+    src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp
+    src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp
+    src/Screens/Dashboard/Components/TopNavbar.cpp
+    src/Screens/Dashboard/Components/Sidebar.cpp
+    src/Screens/Dashboard/Pages/OverviewPage.cpp
+    src/Screens/Dashboard/Pages/AllOrdersPage.cpp
+    src/Screens/Dashboard/Pages/STLUploadsPage.cpp
+)
+
+target_include_directories(FinancialDashboard PRIVATE
+    src/Screens/Dashboard
+    src/Screens/Dashboard/Components
+    src/Screens/Dashboard/Components/OverviewPage
+    src/Screens/Dashboard/Pages
+    src/Auth/login
 )
 
 target_link_libraries(FinancialDashboard

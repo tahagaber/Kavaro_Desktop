@@ -53,7 +53,7 @@ build CMakeFiles/FinancialDashboard.dir/FinancialDashboard_autogen/mocs_compilat
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\FinancialDashboard.dir\FinancialDashboard_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
   OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\FinancialDashboard_autogen
 
@@ -61,17 +61,105 @@ build CMakeFiles/FinancialDashboard.dir/src/main.cpp.obj: CXX_COMPILER__Financia
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\main.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
   OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src
 
-build CMakeFiles/FinancialDashboard.dir/src/FinancialDashboard.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/FinancialDashboard.cpp || cmake_object_order_depends_target_FinancialDashboard
+build CMakeFiles/FinancialDashboard.dir/src/Auth/login/login.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Auth/login/login.cpp || cmake_object_order_depends_target_FinancialDashboard
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\FinancialDashboard.cpp.obj.d
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Auth\login\login.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
-  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Auth\login
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/FinancialDashboard.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\FinancialDashboard.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage\LineChart.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage\OrderStatusChart.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage\MetricCard.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage\MiniCalendar.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage\StatusBarChart.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\OverviewPage
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/TopNavbar.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/TopNavbar.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\TopNavbar.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/Sidebar.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Components/Sidebar.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components\Sidebar.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Components
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/OverviewPage.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages\OverviewPage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/AllOrdersPage.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages\AllOrdersPage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages
+
+build CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/STLUploadsPage.cpp.obj: CXX_COMPILER__FinancialDashboard_unscanned_Debug D$:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.cpp || cmake_object_order_depends_target_FinancialDashboard
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages\STLUploadsPage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/include -ID:/Kavaro_decktop/src/Screens/Dashboard -ID:/Kavaro_decktop/src/Screens/Dashboard/Components -ID:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage -ID:/Kavaro_decktop/src/Screens/Dashboard/Pages -ID:/Kavaro_decktop/src/Auth/login -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FinancialDashboard.dir
+  OBJECT_FILE_DIR = CMakeFiles\FinancialDashboard.dir\src\Screens\Dashboard\Pages
 
 
 # =============================================================================
@@ -81,7 +169,7 @@ build CMakeFiles/FinancialDashboard.dir/src/FinancialDashboard.cpp.obj: CXX_COMP
 #############################################
 # Link the executable FinancialDashboard.exe
 
-build FinancialDashboard.exe: CXX_EXECUTABLE_LINKER__FinancialDashboard_Debug CMakeFiles/FinancialDashboard.dir/FinancialDashboard_autogen/mocs_compilation.cpp.obj CMakeFiles/FinancialDashboard.dir/src/main.cpp.obj CMakeFiles/FinancialDashboard.dir/src/FinancialDashboard.cpp.obj | D$:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a D$:/Qt/6.10.2/mingw_64/lib/libQt6Core.a || FinancialDashboard_autogen FinancialDashboard_autogen_timestamp_deps
+build FinancialDashboard.exe: CXX_EXECUTABLE_LINKER__FinancialDashboard_Debug CMakeFiles/FinancialDashboard.dir/FinancialDashboard_autogen/mocs_compilation.cpp.obj CMakeFiles/FinancialDashboard.dir/src/main.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Auth/login/login.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/FinancialDashboard.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/TopNavbar.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Components/Sidebar.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/OverviewPage.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/AllOrdersPage.cpp.obj CMakeFiles/FinancialDashboard.dir/src/Screens/Dashboard/Pages/STLUploadsPage.cpp.obj | D$:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a D$:/Qt/6.10.2/mingw_64/lib/libQt6Core.a || FinancialDashboard_autogen FinancialDashboard_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = D:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a  D:/Qt/6.10.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FinancialDashboard.dir

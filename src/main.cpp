@@ -1,5 +1,6 @@
 #include <QApplication>
 #include "FinancialDashboard.h"
+#include "login.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -8,8 +9,22 @@ int main(int argc, char *argv[]) {
     QFont font("Segoe UI", 10);
     app.setFont(font);
     
-    FinancialDashboard window;
-    window.show();
+    FinancialDashboard* dashboard = new FinancialDashboard();
+    LoginWindow* login = new LoginWindow();
     
-    return app.exec();
+    // Transition mechanism
+    QObject::connect(login, &LoginWindow::loginSuccessful, [&]() {
+        login->close();
+        dashboard->showMaximized();
+    });
+
+    
+    login->show();
+    
+    int result = app.exec();
+    
+    delete login;
+    delete dashboard;
+    
+    return result;
 }
