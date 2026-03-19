@@ -6,16 +6,15 @@
 
 class MiniCalendar;
 class StatusBarChart;
+class RecentOrdersTable;
 
 class OverviewPage : public QWidget {
     Q_OBJECT
 public:
     explicit OverviewPage(QWidget* parent = nullptr);
 
-
-
 private:
-    QTableWidget* mainTable;
+    RecentOrdersTable* recentOrdersTable;
     MiniCalendar* mainCalendar;
     StatusBarChart* mainStatusBarChart;
     QScrollArea* scrollArea;

@@ -339,6 +339,30 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.h",
+			"Mu",
+			"3YEKI2YA74/moc_AddOrderDialog.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/FilterBar.h",
+			"Mu",
+			"SYC5F462HR/moc_FilterBar.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/OrderTable.h",
+			"Mu",
+			"SYC5F462HR/moc_OrderTable.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/PaginationBar.h",
+			"Mu",
+			"SYC5F462HR/moc_PaginationBar.cpp",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.h",
 			"Mu",
 			"ILZJBPZS6B/moc_LineChart.cpp",
@@ -433,6 +457,8 @@
 		"D:/Kavaro_decktop/src/Screens/Dashboard",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Pages",
 		"D:/Kavaro_decktop/src/Auth/login",
 		"D:/Qt/6.10.2/mingw_64/include/QtCore",
@@ -481,6 +507,26 @@
 	"SOURCES" : 
 	[
 		[ "D:/Kavaro_decktop/src/Auth/login/login.cpp", "Mu", null ],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/FilterBar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/OrderTable.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/PaginationBar.cpp",
+			"Mu",
+			null
+		],
 		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp",
 			"Mu",

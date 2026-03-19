@@ -16,17 +16,25 @@ add_executable(FinancialDashboard
     src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp
     src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.cpp
     src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp
+    src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.cpp
+    src/Screens/Dashboard/Components/AllOrders/FilterBar.cpp
+    src/Screens/Dashboard/Components/AllOrders/OrderTable.cpp
+    src/Screens/Dashboard/Components/AllOrders/PaginationBar.cpp
+    src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.cpp
     src/Screens/Dashboard/Components/TopNavbar.cpp
     src/Screens/Dashboard/Components/Sidebar.cpp
     src/Screens/Dashboard/Pages/OverviewPage.cpp
     src/Screens/Dashboard/Pages/AllOrdersPage.cpp
     src/Screens/Dashboard/Pages/STLUploadsPage.cpp
+
 )
 
 target_include_directories(FinancialDashboard PRIVATE
     src/Screens/Dashboard
     src/Screens/Dashboard/Components
     src/Screens/Dashboard/Components/OverviewPage
+    src/Screens/Dashboard/Components/AllOrders
+    src/Screens/Dashboard/Components/AllOrders/AddOrder
     src/Screens/Dashboard/Pages
     src/Auth/login
 )

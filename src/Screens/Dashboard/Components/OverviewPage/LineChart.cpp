@@ -29,6 +29,47 @@ void LineChart::setViewMode(ViewMode mode) {
     update();
 }
 
+QComboBox* LineChart::createPeriodSelector(QLabel* titleLabel) {
+    auto* periodCombo = new QComboBox;
+    periodCombo->setCursor(Qt::PointingHandCursor);
+    periodCombo->addItems({"Last 12 Months", "Last 30 Days", "Last 7 Days"});
+    periodCombo->setStyleSheet(R"(
+        QComboBox {
+            background-color: #334155;
+            color: #94a3b8;
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 12px;
+            border: none;
+        }
+        QComboBox::drop-down {
+            border: none;
+        }
+        QComboBox QAbstractItemView {
+            background-color: #1e293b;
+            color: #f8fafc;
+            selection-background-color: #3b82f6;
+            border: 1px solid #334155;
+            border-radius: 4px;
+        }
+    )");
+
+    connect(periodCombo, QOverload<int>::of(&QComboBox::currentIndexChanged), [this, titleLabel](int index) {
+        if (index == 0) {
+            this->setViewMode(LineChart::Months12);
+            if (titleLabel) titleLabel->setText("Multi-Currency Growth (12 Months)");
+        } else if (index == 1) {
+            this->setViewMode(LineChart::Days30);
+            if (titleLabel) titleLabel->setText("Multi-Currency Growth (30 Days)");
+        } else if (index == 2) {
+            this->setViewMode(LineChart::Days7);
+            if (titleLabel) titleLabel->setText("Multi-Currency Growth (7 Days)");
+        }
+    });
+
+    return periodCombo;
+}
+
 void LineChart::paintEvent(QPaintEvent*) {
     QPainter p(this);
     p.setRenderHint(QPainter::Antialiasing);

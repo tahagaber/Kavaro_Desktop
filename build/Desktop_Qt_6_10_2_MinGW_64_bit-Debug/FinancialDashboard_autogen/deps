@@ -9,6 +9,14 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/moc_predefs.h \
 	D:/Kavaro_decktop/src/Auth/login/login.cpp \
 	D:/Kavaro_decktop/src/Auth/login/login.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/FilterBar.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/FilterBar.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/OrderTable.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/OrderTable.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/PaginationBar.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/PaginationBar.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/LineChart.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MetricCard.cpp \
@@ -234,6 +242,7 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QCheckBox \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QDialog \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QFrame \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QGraphicsDropShadowEffect \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QLabel \
@@ -255,6 +264,7 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qboxlayout.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qcheckbox.h \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialog.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qframe.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qgraphicseffect.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qgridlayout.h \

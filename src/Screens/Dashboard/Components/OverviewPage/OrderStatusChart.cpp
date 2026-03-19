@@ -43,7 +43,7 @@ void OrderStatusChart::paintEvent(QPaintEvent*) {
     
     // Data with English labels and gradient colors
     QVector<BarData> data;
-    data.push_back(BarData("Completed", m_completed, "#4ade80", "#16a34a")); // Light Green -> Dark Green
+    data.push_back(BarData("taha", m_completed, "#4ade80", "#16a34a")); // Light Green -> Dark Green
     data.push_back(BarData("Pending", m_pending, "#fbbf24", "#d97706"));   // Yellow -> Orange
     data.push_back(BarData("Returned", m_returned, "#f87171", "#dc2626"));  // Light Red -> Dark Red
     
