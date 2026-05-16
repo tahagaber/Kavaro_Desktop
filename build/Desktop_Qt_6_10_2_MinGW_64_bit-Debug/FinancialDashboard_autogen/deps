@@ -55,6 +55,18 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsList.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/AccessMetrics.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/AccessMetrics.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/PreferencesSection.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/PreferencesSection.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/ProfileSection.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/ProfileSection.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SecuritySection.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SecuritySection.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsActions.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsActions.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsCard.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsCard.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.cpp \

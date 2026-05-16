@@ -477,6 +477,42 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/AccessMetrics.h",
+			"Mu",
+			"3Y7HQODRTE/moc_AccessMetrics.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/PreferencesSection.h",
+			"Mu",
+			"3Y7HQODRTE/moc_PreferencesSection.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/ProfileSection.h",
+			"Mu",
+			"3Y7HQODRTE/moc_ProfileSection.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SecuritySection.h",
+			"Mu",
+			"3Y7HQODRTE/moc_SecuritySection.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsActions.h",
+			"Mu",
+			"3Y7HQODRTE/moc_SettingsActions.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsCard.h",
+			"Mu",
+			"3Y7HQODRTE/moc_SettingsCard.cpp",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.h",
 			"Mu",
 			"QUIXWSF4PW/moc_FinancialDashboard.cpp",
@@ -547,6 +583,7 @@
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Pages",
 		"D:/Kavaro_decktop/src/Auth/login",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage",
 		"D:/Qt/6.10.2/mingw_64/include/QtCore",
 		"D:/Qt/6.10.2/mingw_64/include",
 		"D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++",
@@ -705,6 +742,36 @@
 		],
 		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/AccessMetrics.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/PreferencesSection.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/ProfileSection.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SecuritySection.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsActions.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage/SettingsCard.cpp",
 			"Mu",
 			null
 		],

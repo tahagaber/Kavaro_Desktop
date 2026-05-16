@@ -37,21 +37,21 @@ STLUploadsPage::STLUploadsPage(QWidget* parent) : QWidget(parent) {
     // Initial Mock Cards
     stlGrid->addCard(new STLCard(
         "Futuristic_Warrior_Helmet.stl", 
-        "D:/Kavaro_decktop/assets/stl_thumbnails/gaming_stl_model.png", 
+        "D:/Kavaro_decktop/assets/on_b_5.jpg", 
         "PROCESSED", 
         "24.8 MB", "1.2M", "OCT 12, 2023"
     ));
     
     stlGrid->addCard(new STLCard(
         "Stylized_Anime_Character.stl", 
-        "D:/Kavaro_decktop/assets/stl_thumbnails/anime_stl_model.png", 
+        "D:/Kavaro_decktop/assets/on_b_2.jpg", 
         "OPTIMIZING", 
         "156.4 MB", "8.4M", "OCT 14, 2023"
     ));
     
     stlGrid->addCard(new STLCard(
         "Mini_Desk_Statue.stl", 
-        "D:/Kavaro_decktop/assets/stl_thumbnails/gaming_stl_model.png", 
+        "D:/Kavaro_decktop/assets/on_b_4.jpg", 
         "PROCESSED", 
         "5.2 MB", "85K", "OCT 15, 2023"
     ));

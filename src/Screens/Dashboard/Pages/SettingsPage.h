@@ -1,8 +1,7 @@
 #pragma once
 
 #include <QWidget>
-#include <QLabel>
-#include <QVBoxLayout>
+#include <QScrollArea>
 
 class SettingsPage : public QWidget {
     Q_OBJECT

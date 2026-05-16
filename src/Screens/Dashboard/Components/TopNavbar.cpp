@@ -29,34 +29,6 @@ TopNavbar::TopNavbar(QWidget* parent) : QFrame(parent) {
         }
     )");
     navLayout->addWidget(logo);
-    
-    // Nav buttons
-    QStringList navItems = {"Command Center", "Model Lab", "Analytics", "Finance Studio"};
-    for(const auto& item : navItems) {
-        auto* btn = new QPushButton(item);
-        btn->setCursor(Qt::PointingHandCursor);
-        btn->setCheckable(true);
-        btn->setChecked(item == "Command Center");
-        btn->setStyleSheet(R"(
-            QPushButton {
-                background: transparent;
-                color: #94a3b8;
-                border: none;
-                padding: 10px 18px;
-                font-size: 14px;
-                font-weight: 600;
-                border-radius: 8px;
-            }
-            QPushButton:hover {
-                color: #f8fafc;
-            }
-            QPushButton:checked {
-                color: #3b82f6;
-            }
-        )");
-        navLayout->addWidget(btn);
-    }
-    
     navLayout->addStretch();
     
     // Search

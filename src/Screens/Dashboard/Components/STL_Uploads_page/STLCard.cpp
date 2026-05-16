@@ -2,6 +2,10 @@
 #include <QPixmap>
 #include <QPainter>
 #include <QPainterPath>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QLabel>
+#include <QPushButton>
 
 STLCard::STLCard(const QString& title, const QString& imagePath, const QString& status, 
                  const QString& size, const QString& triangles, const QString& date, 
@@ -11,6 +15,7 @@ STLCard::STLCard(const QString& title, const QString& imagePath, const QString& 
 
     auto* card = new QFrame;
     card->setObjectName("stlCard");
+    card->setMaximumWidth(380); // Restrict maximum width
     card->setStyleSheet(R"(
         #stlCard {
             background-color: #0f172a; 
@@ -29,50 +34,48 @@ STLCard::STLCard(const QString& title, const QString& imagePath, const QString& 
     
     // --- Thumbnail Section (Full Width) ---
     auto* imgContainer = new QFrame;
-    imgContainer->setFixedHeight(220); // Larger height for better visual
-    imgContainer->setStyleSheet("background-color: #020617; border-top-left-radius: 16px; border-top-right-radius: 16px; border: none;");
+    imgContainer->setFixedHeight(200);
+    imgContainer->setStyleSheet("background-color: #020617; border-top-left-radius: 16px; border-top-right-radius: 16px; border: none; overflow: hidden;");
     
     auto* imgLabel = new QLabel(imgContainer);
-    imgLabel->setMinimumSize(1, 1); // Allow scaling
     imgLabel->setAlignment(Qt::AlignCenter);
+    imgLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     
-    // Auto-scale pixmap to fill width
     QPixmap pixmap(imagePath);
     if (!pixmap.isNull()) {
-        imgLabel->setPixmap(pixmap.scaled(400, 220, Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation));
+        imgLabel->setPixmap(pixmap.scaled(380, 200, Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation));
+        // Removed setScaledContents(true) to prevent stretching/distortion
     } else {
         imgLabel->setText("No Image Available");
         imgLabel->setStyleSheet("color: #334155; font-size: 14px; font-weight: bold;");
     }
-    
+
+    auto* imgMainLayout = new QVBoxLayout(imgContainer);
+    imgMainLayout->setContentsMargins(0, 0, 0, 0);
+    imgMainLayout->addWidget(imgLabel);
+
     // Status Badge (Top Right)
     auto* badge = new QLabel(status, imgContainer);
     badge->setObjectName("statusBadge");
     QString badgeColor = (status == "PROCESSED") ? "#10b981" : (status == "OPTIMIZING" ? "#f59e0b" : "#ef4444");
-    QString badgeBg = (status == "PROCESSED") ? "rgba(16, 185, 129, 0.15)" : (status == "OPTIMIZING" ? "rgba(245, 158, 11, 0.15)" : "rgba(239, 68, 68, 0.15)");
+    QString badgeBg = (status == "PROCESSED") ? "rgba(16, 185, 129, 0.2)" : (status == "OPTIMIZING" ? "rgba(245, 158, 11, 0.2)" : "rgba(239, 68, 68, 0.2)");
     
     badge->setStyleSheet(QString(R"(
         #statusBadge {
             background-color: %2;
             color: %1;
-            font-size: 11px;
-            font-weight: 800;
+            font-size: 10px;
+            font-weight: 900;
             padding: 6px 12px;
-            border-radius: 8px;
+            border-radius: 6px;
             border: 1px solid %1;
         }
     )").arg(badgeColor, badgeBg));
     
-    // Position badge in constructor (will be adjusted in layout but for now)
-    auto* badgeLayout = new QHBoxLayout(imgContainer);
-    badgeLayout->addStretch();
-    badgeLayout->addWidget(badge);
-    badgeLayout->setAlignment(Qt::AlignTop | Qt::AlignRight);
-    badgeLayout->setContentsMargins(15, 15, 15, 15);
-
-    auto* imgMainLayout = new QVBoxLayout(imgContainer);
-    imgMainLayout->setContentsMargins(0, 0, 0, 0);
-    imgMainLayout->addWidget(imgLabel);
+    // Position badge manually to top right
+    badge->adjustSize();
+    badge->move(350 - badge->width() - 15, 15); // Assume roughly 350 width for card
+    badge->raise();
 
     cardLayout->addWidget(imgContainer);
     
@@ -84,27 +87,27 @@ STLCard::STLCard(const QString& title, const QString& imagePath, const QString& 
     
     auto* nameLabel = new QLabel(title);
     nameLabel->setWordWrap(true);
-    nameLabel->setStyleSheet("color: #f8fafc; font-size: 18px; font-weight: bold; font-family: 'Inter', sans-serif;");
+    nameLabel->setStyleSheet("color: #f8fafc; font-size: 17px; font-weight: bold;");
     
     // Metadata Row
     auto* metaRow = new QHBoxLayout;
-    metaRow->setSpacing(25);
+    metaRow->setSpacing(20);
     
     auto createMetaItem = [](const QString& label, const QString& value) {
         auto* vCol = new QVBoxLayout;
         vCol->setSpacing(4);
         auto* l = new QLabel(label);
-        l->setStyleSheet("color: #64748b; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;");
+        l->setStyleSheet("color: #64748b; font-size: 10px; font-weight: 800; letter-spacing: 0.5px;");
         auto* v = new QLabel(value);
-        v->setStyleSheet("color: #cbd5e1; font-size: 13px; font-weight: 600;");
+        v->setStyleSheet("color: #cbd5e1; font-size: 12px; font-weight: 600;");
         vCol->addWidget(l);
         vCol->addWidget(v);
         return vCol;
     };
     
-    metaRow->addLayout(createMetaItem("Size", size));
-    metaRow->addLayout(createMetaItem("Triangles", triangles));
-    metaRow->addLayout(createMetaItem("Date", date));
+    metaRow->addLayout(createMetaItem("SIZE", size));
+    metaRow->addLayout(createMetaItem("TRIANGLES", triangles));
+    metaRow->addLayout(createMetaItem("DATE", date));
     metaRow->addStretch();
     
     infoLayout->addWidget(nameLabel);
@@ -119,51 +122,40 @@ STLCard::STLCard(const QString& title, const QString& imagePath, const QString& 
     actionLayout->setSpacing(10);
     
     auto* viewBtn = new QPushButton("VIEW 3D");
-    viewBtn->setFixedHeight(44);
+    viewBtn->setFixedHeight(40);
     viewBtn->setCursor(Qt::PointingHandCursor);
     viewBtn->setStyleSheet(R"(
         QPushButton {
             background-color: #3b82f6;
             color: white;
-            border-radius: 10px;
-            font-size: 14px;
-            font-weight: bold;
-            border: none;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 800;
         }
-        QPushButton:hover {
-            background-color: #2563eb;
-        }
+        QPushButton:hover { background-color: #2563eb; }
     )");
     
     auto createIconBtn = [](const QString& icon) {
         auto* btn = new QPushButton(icon);
-        btn->setFixedSize(44, 44);
+        btn->setFixedSize(40, 40);
         btn->setCursor(Qt::PointingHandCursor);
         btn->setStyleSheet(R"(
             QPushButton {
                 background-color: #1e293b;
-                color: #94a3b8;
+                color: #3b82f6;
                 border: 1px solid #334155;
-                border-radius: 10px;
-                font-size: 18px;
+                border-radius: 8px;
+                font-size: 16px;
             }
-            QPushButton:hover {
-                background-color: #334155;
-                color: #f8fafc;
-                border-color: #475569;
-            }
+            QPushButton:hover { background-color: #334155; border-color: #3b82f6; }
         )");
         return btn;
     };
     
-    auto* downloadBtn = createIconBtn("⬇");
-    auto* shareBtn = createIconBtn("📤");
-    
     actionLayout->addWidget(viewBtn, 1);
-    actionLayout->addWidget(downloadBtn);
-    actionLayout->addWidget(shareBtn);
+    actionLayout->addWidget(createIconBtn("⬇"));
+    actionLayout->addWidget(createIconBtn("📤"));
     
     cardLayout->addWidget(actionWrapper);
-    
     layout->addWidget(card);
 }

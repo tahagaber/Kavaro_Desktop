@@ -59,6 +59,11 @@ The application uses a "Glassmorphic" and "Flat-Modern" hybrid design. Backgroun
 
 ---
 
+## ✨ Recent UI Refinements
+- **Responsive STL Cards**: Fixed an issue where STL cards and their thumbnail images would stretch disproportionately on larger screens. The cards now have a maximum width constraints and proper image aspect ratio retention for a cleaner, more professional look.
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites

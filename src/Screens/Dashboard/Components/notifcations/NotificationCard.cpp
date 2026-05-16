@@ -34,7 +34,6 @@ NotificationCard::NotificationCard(const NotificationData& data, QWidget* parent
     
     QString iconStr = getIconStr();
     QString iconColor = getIconColor();
-    QString iconBgStr = getIconColor(); // Background with alpha, we'll fake it with hex
     
     // Just lower opacity for bg
     QString fakeBgColor;

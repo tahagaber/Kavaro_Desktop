@@ -50,7 +50,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 69,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
@@ -168,7 +168,7 @@
 			{
 				"command" : 7,
 				"file" : 0,
-				"line" : 57,
+				"line" : 64,
 				"parent" : 0
 			}
 		]
@@ -268,6 +268,10 @@
 					"path" : "D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations"
 				},
 				{
+					"backtrace" : 24,
+					"path" : "D:/Kavaro_decktop/src/Screens/Dashboard/Components/settingsPage"
+				},
+				{
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.10.2/mingw_64/include/QtCore"
@@ -336,18 +340,24 @@
 				37,
 				39,
 				41,
-				43
+				43,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "FinancialDashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "FinancialDashboard_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "FinancialDashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "FinancialDashboard::@6890427a1f51a3e7e1df",
@@ -459,7 +469,13 @@
 				37,
 				39,
 				41,
-				43
+				43,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
 			]
 		},
 		{
@@ -478,21 +494,22 @@
 				38,
 				40,
 				42,
-				44
+				44,
+				51
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				45
+				52
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				46
+				53
 			]
 		}
 	],
@@ -754,6 +771,47 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/ProfileSection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/PreferencesSection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/SecuritySection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/SettingsActions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/SettingsCard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/AccessMetrics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/settingsPage/AccessMetrics.h",
 			"sourceGroupIndex" : 1
 		},
 		{

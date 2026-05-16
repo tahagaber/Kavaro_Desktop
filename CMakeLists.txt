@@ -52,6 +52,13 @@ add_executable(FinancialDashboard
     src/Screens/Dashboard/Components/notifcations/NotificationCard.h
     src/Screens/Dashboard/Components/notifcations/NotificationsList.cpp
     src/Screens/Dashboard/Components/notifcations/NotificationsList.h
+    src/Screens/Dashboard/Components/settingsPage/ProfileSection.cpp
+    src/Screens/Dashboard/Components/settingsPage/PreferencesSection.cpp
+    src/Screens/Dashboard/Components/settingsPage/SecuritySection.cpp
+    src/Screens/Dashboard/Components/settingsPage/SettingsActions.cpp
+    src/Screens/Dashboard/Components/settingsPage/SettingsCard.cpp
+    src/Screens/Dashboard/Components/settingsPage/AccessMetrics.cpp
+    src/Screens/Dashboard/Components/settingsPage/AccessMetrics.h
 )
 
 target_include_directories(FinancialDashboard PRIVATE
@@ -64,6 +71,7 @@ target_include_directories(FinancialDashboard PRIVATE
     src/Screens/Dashboard/Pages
     src/Auth/login
     src/Screens/Dashboard/Components/notifcations
+    src/Screens/Dashboard/Components/settingsPage
 )
 
 target_link_libraries(FinancialDashboard
