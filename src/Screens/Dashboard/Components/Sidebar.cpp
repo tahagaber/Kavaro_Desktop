@@ -13,7 +13,7 @@ Sidebar::Sidebar(QWidget* parent) : QFrame(parent) {
     sidebarLayout->setContentsMargins(0, 20, 0, 0);
     sidebarLayout->setSpacing(5);
     
-    QStringList tabNames = {"  📊  Overview", "  📦  All Orders", "  📄  STL Uploads", "  💰  Revenue Analytics", "  🔥  Burn Rate"};
+    QStringList tabNames = {"  📊  Overview", "  📦  All Orders", "  📄  STL Uploads", "  🔔  Notifications", "  ⚙️  Settings"};
     sidebarGroup = new QButtonGroup(this);
     sidebarGroup->setExclusive(true);
 

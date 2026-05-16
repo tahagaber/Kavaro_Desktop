@@ -50,7 +50,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
@@ -168,7 +168,7 @@
 			{
 				"command" : 7,
 				"file" : 0,
-				"line" : 30,
+				"line" : 57,
 				"parent" : 0
 			}
 		]
@@ -253,11 +253,19 @@
 				},
 				{
 					"backtrace" : 24,
+					"path" : "D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page"
+				},
+				{
+					"backtrace" : 24,
 					"path" : "D:/Kavaro_decktop/src/Screens/Dashboard/Pages"
 				},
 				{
 					"backtrace" : 24,
 					"path" : "D:/Kavaro_decktop/src/Auth/login"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations"
 				},
 				{
 					"backtrace" : 2,
@@ -313,7 +321,22 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43
 			]
 		}
 	],
@@ -421,21 +444,55 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				17
+				45
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				18
+				46
 			]
 		}
 	],
@@ -499,6 +556,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/Screens/Dashboard/Components/AllOrders/FilterBar.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -512,6 +575,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/Screens/Dashboard/Components/AllOrders/PaginationBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/AllOrders/AddOrder/AddOrderDialog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -545,16 +614,159 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/timestamp",
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Pages/NotificationsPage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Pages/NotificationsPage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Pages/SettingsPage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Pages/SettingsPage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsHeader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsHeader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationCard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationCard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Screens/Dashboard/Components/notifcations/NotificationsList.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/timestamp.rule",
+			"path" : "build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/timestamp",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

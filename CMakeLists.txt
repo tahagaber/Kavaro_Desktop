@@ -26,7 +26,32 @@ add_executable(FinancialDashboard
     src/Screens/Dashboard/Pages/OverviewPage.cpp
     src/Screens/Dashboard/Pages/AllOrdersPage.cpp
     src/Screens/Dashboard/Pages/STLUploadsPage.cpp
-
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.cpp
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.h
+    src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.h
+    src/Screens/Dashboard/Pages/NotificationsPage.cpp
+    src/Screens/Dashboard/Pages/NotificationsPage.h
+    src/Screens/Dashboard/Pages/SettingsPage.cpp
+    src/Screens/Dashboard/Pages/SettingsPage.h
+    src/Screens/Dashboard/Components/notifcations/NotificationsHeader.cpp
+    src/Screens/Dashboard/Components/notifcations/NotificationsHeader.h
+    src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp
+    src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.h
+    src/Screens/Dashboard/Components/notifcations/NotificationCard.cpp
+    src/Screens/Dashboard/Components/notifcations/NotificationCard.h
+    src/Screens/Dashboard/Components/notifcations/NotificationsList.cpp
+    src/Screens/Dashboard/Components/notifcations/NotificationsList.h
 )
 
 target_include_directories(FinancialDashboard PRIVATE
@@ -35,8 +60,10 @@ target_include_directories(FinancialDashboard PRIVATE
     src/Screens/Dashboard/Components/OverviewPage
     src/Screens/Dashboard/Components/AllOrders
     src/Screens/Dashboard/Components/AllOrders/AddOrder
+    src/Screens/Dashboard/Components/STL_Uploads_page
     src/Screens/Dashboard/Pages
     src/Auth/login
+    src/Screens/Dashboard/Components/notifcations
 )
 
 target_link_libraries(FinancialDashboard

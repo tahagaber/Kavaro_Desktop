@@ -387,9 +387,57 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.h",
+			"Mu",
+			"ILZJBPZS6B/moc_RecentOrdersTable.cpp",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.h",
 			"Mu",
 			"ILZJBPZS6B/moc_StatusBarChart.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLAddDialog.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLCard.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLCategoryTabs.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLGrid.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLHeader.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLPagination.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.h",
+			"Mu",
+			"OPXRGLL32U/moc_STLUploadArea.cpp",
 			null
 		],
 		[
@@ -405,6 +453,30 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationCard.h",
+			"Mu",
+			"V2BNB65PE3/moc_NotificationCard.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsHeader.h",
+			"Mu",
+			"V2BNB65PE3/moc_NotificationsHeader.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsList.h",
+			"Mu",
+			"V2BNB65PE3/moc_NotificationsList.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.h",
+			"Mu",
+			"V2BNB65PE3/moc_NotificationsSidebar.cpp",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.h",
 			"Mu",
 			"QUIXWSF4PW/moc_FinancialDashboard.cpp",
@@ -417,6 +489,12 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/NotificationsPage.h",
+			"Mu",
+			"2C4II7KIPD/moc_NotificationsPage.cpp",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.h",
 			"Mu",
 			"2C4II7KIPD/moc_OverviewPage.cpp",
@@ -426,6 +504,12 @@
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.h",
 			"Mu",
 			"2C4II7KIPD/moc_STLUploadsPage.cpp",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/SettingsPage.h",
+			"Mu",
+			"2C4II7KIPD/moc_SettingsPage.cpp",
 			null
 		]
 	],
@@ -459,8 +543,10 @@
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/AllOrders/AddOrder",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page",
 		"D:/Kavaro_decktop/src/Screens/Dashboard/Pages",
 		"D:/Kavaro_decktop/src/Auth/login",
+		"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations",
 		"D:/Qt/6.10.2/mingw_64/include/QtCore",
 		"D:/Qt/6.10.2/mingw_64/include",
 		"D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++",
@@ -548,7 +634,47 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.cpp",
+			"Mu",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.cpp",
 			"Mu",
 			null
 		],
@@ -563,6 +689,26 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationCard.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsHeader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsList.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp",
+			"Mu",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.cpp",
 			"Mu",
 			null
@@ -573,12 +719,22 @@
 			null
 		],
 		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/NotificationsPage.cpp",
+			"Mu",
+			null
+		],
+		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.cpp",
 			"Mu",
 			null
 		],
 		[
 			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Kavaro_decktop/src/Screens/Dashboard/Pages/SettingsPage.cpp",
 			"Mu",
 			null
 		],

@@ -1,49 +1,94 @@
 #include "STLUploadsPage.h"
 #include <QVBoxLayout>
-#include <QGridLayout>
+#include <QHBoxLayout>
 #include <QLabel>
 #include <QPushButton>
+#include <QScrollArea>
+#include "../Components/STL_Uploads_page/STLHeader.h"
+#include "../Components/STL_Uploads_page/STLCategoryTabs.h"
+#include "../Components/STL_Uploads_page/STLUploadArea.h"
+#include "../Components/STL_Uploads_page/STLGrid.h"
+#include "../Components/STL_Uploads_page/STLCard.h"
+#include "../Components/STL_Uploads_page/STLPagination.h"
 
 STLUploadsPage::STLUploadsPage(QWidget* parent) : QWidget(parent) {
-    auto* stlLayout = new QVBoxLayout(this);
-    stlLayout->setContentsMargins(40, 40, 40, 40);
+    auto* mainLayout = new QVBoxLayout(this);
+    mainLayout->setContentsMargins(0, 0, 0, 0);
 
-    auto* stlTitle = new QLabel("Incoming STL Queue");
-    stlTitle->setStyleSheet("color: white; font-size: 28px; font-weight: bold; margin-bottom: 20px;");
-    stlLayout->addWidget(stlTitle);
+    scrollArea = new QScrollArea;
+    scrollArea->setWidgetResizable(true);
+    scrollArea->setFrameShape(QFrame::NoFrame);
+    scrollArea->setStyleSheet("background-color: transparent; border: none;");
 
-    auto* stlGrid = new QGridLayout;
-    stlGrid->setSpacing(20);
+    auto* contentArea = new QWidget;
+    contentArea->setStyleSheet("background-color: transparent;");
+    auto* contentLayout = new QVBoxLayout(contentArea);
+    contentLayout->setContentsMargins(40, 40, 40, 40);
+    contentLayout->setSpacing(0);
 
-    // Mock STL File Cards
-    for(int i = 0; i < 4; i++) {
-        auto* card = new QFrame;
-        card->setStyleSheet("background-color: #1e293b; border-radius: 15px; border: 1px solid #334155;");
-        card->setFixedSize(220, 180);
-        auto* cl = new QVBoxLayout(card);
-        
-        auto* icon = new QLabel("🧊");
-        icon->setAlignment(Qt::AlignCenter);
-        icon->setStyleSheet("font-size: 40px; background: #0f172a; border-radius: 10px; margin: 5px;");
-        
-        auto* name = new QLabel(QString("custom_part_%1.stl").arg(i+1));
-        name->setStyleSheet("color: #f8fafc; font-weight: bold;");
-        name->setAlignment(Qt::AlignCenter);
+    contentLayout->addWidget(new STLHeader);
+    contentLayout->addWidget(new STLCategoryTabs);
 
-        auto* size = new QLabel("12.4 MB | Triangles: 145K");
-        size->setStyleSheet("color: #64748b; font-size: 10px;");
-        size->setAlignment(Qt::AlignCenter);
-        
-        auto* btn = new QPushButton("PREVIEW MODEL");
-        btn->setStyleSheet("background: #3b82f6; color: white; border-radius: 6px; padding: 8px; font-size: 11px; font-weight: bold;");
+    auto* uploadArea = new STLUploadArea;
+    contentLayout->addWidget(uploadArea);
 
-        cl->addWidget(icon);
-        cl->addWidget(name);
-        cl->addWidget(size);
-        cl->addWidget(btn);
-        
-        stlGrid->addWidget(card, i / 2, i % 2);
+    stlGrid = new STLGrid;
+    
+    // Initial Mock Cards
+    stlGrid->addCard(new STLCard(
+        "Futuristic_Warrior_Helmet.stl", 
+        "D:/Kavaro_decktop/assets/stl_thumbnails/gaming_stl_model.png", 
+        "PROCESSED", 
+        "24.8 MB", "1.2M", "OCT 12, 2023"
+    ));
+    
+    stlGrid->addCard(new STLCard(
+        "Stylized_Anime_Character.stl", 
+        "D:/Kavaro_decktop/assets/stl_thumbnails/anime_stl_model.png", 
+        "OPTIMIZING", 
+        "156.4 MB", "8.4M", "OCT 14, 2023"
+    ));
+    
+    stlGrid->addCard(new STLCard(
+        "Mini_Desk_Statue.stl", 
+        "D:/Kavaro_decktop/assets/stl_thumbnails/gaming_stl_model.png", 
+        "PROCESSED", 
+        "5.2 MB", "85K", "OCT 15, 2023"
+    ));
+
+    contentLayout->addWidget(stlGrid);
+    contentLayout->addWidget(new STLPagination(1, 12));
+    contentLayout->addStretch();
+    
+    scrollArea->setWidget(contentArea);
+    mainLayout->addWidget(scrollArea);
+
+    // Connect Signal with new signature
+    connect(uploadArea, &STLUploadArea::stlAdded, this, &STLUploadsPage::addNewCard);
+}
+
+void STLUploadsPage::addNewCard(const QString& name, const QString& details, const QString& category, const QString& imagePath) {
+    // Use picked image if available, else use default category thumb
+    QString thumb = imagePath;
+    if (thumb.isEmpty()) {
+        thumb = "D:/Kavaro_decktop/assets/stl_thumbnails/gaming_stl_model.png";
+        if (category == "Anime") {
+            thumb = "D:/Kavaro_decktop/assets/stl_thumbnails/anime_stl_model.png";
+        }
     }
-    stlLayout->addLayout(stlGrid);
-    stlLayout->addStretch();
+    
+    QString size = "Unknown";
+    QString triangles = "--";
+    QStringList parts = details.split(",");
+    if (!parts.isEmpty()) size = parts[0].trimmed();
+    if (parts.size() > 1) triangles = parts[1].trimmed();
+
+    auto* newCard = new STLCard(
+        name, 
+        thumb, 
+        "PROCESSED", 
+        size, triangles, "TODAY"
+    );
+    
+    stlGrid->addCard(newCard);
 }

@@ -25,20 +25,48 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/MiniCalendar.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/OrderStatusChart.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/RecentOrdersTable.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/OverviewPage/StatusBarChart.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLAddDialog.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCard.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLCategoryTabs.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLGrid.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLHeader.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLPagination.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/STL_Uploads_page/STLUploadArea.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/Sidebar.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/Sidebar.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/TopNavbar.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Components/TopNavbar.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationCard.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationCard.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsHeader.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsHeader.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsList.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsList.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Components/notifcations/NotificationsSidebar.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/FinancialDashboard.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/AllOrdersPage.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/NotificationsPage.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/NotificationsPage.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/OverviewPage.h \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.cpp \
 	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/STLUploadsPage.h \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/SettingsPage.cpp \
+	D:/Kavaro_decktop/src/Screens/Dashboard/Pages/SettingsPage.h \
 	D:/Kavaro_decktop/src/main.cpp \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QDate \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/QList \
@@ -195,6 +223,7 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/qversiontagging.h \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/qxptype_traits.h \
 	D:/Qt/6.10.2/mingw_64/include/QtCore/qyieldcpu.h \
+	D:/Qt/6.10.2/mingw_64/include/QtGui/QAction \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/QPaintEvent \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/QTransform \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/qaction.h \
@@ -242,12 +271,17 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QCheckBox \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QComboBox \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QDialog \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QFrame \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QGraphicsDropShadowEffect \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QGridLayout \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QHBoxLayout \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QHeaderView \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QLabel \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QLineEdit \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QMainWindow \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QMenu \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QProgressBar \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QPushButton \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/QScrollArea \
@@ -264,15 +298,18 @@ FinancialDashboard_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qboxlayout.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qcheckbox.h \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qcombobox.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialog.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qframe.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qgraphicseffect.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qgridlayout.h \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qheaderview.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qlabel.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qlayout.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qlayoutitem.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qlineedit.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qmainwindow.h \
+	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qmenu.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qprogressbar.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qpushbutton.h \
 	D:/Qt/6.10.2/mingw_64/include/QtWidgets/qrubberband.h \

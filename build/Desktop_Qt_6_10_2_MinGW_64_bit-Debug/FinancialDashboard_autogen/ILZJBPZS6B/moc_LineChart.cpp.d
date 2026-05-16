@@ -16,6 +16,7 @@ D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_
   D:/Qt/6.10.2/mingw_64/include/QtCore/q23type_traits.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/q23utility.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+  D:/Qt/6.10.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qalloc.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qanystringview.h \
@@ -93,6 +94,7 @@ D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_
   D:/Qt/6.10.2/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qrefcount.h \
+  D:/Qt/6.10.2/mingw_64/include/QtCore/qregularexpression.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qscopeguard.h \
   D:/Qt/6.10.2/mingw_64/include/QtCore/qset.h \
@@ -168,6 +170,7 @@ D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_
   D:/Qt/6.10.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qpalette.h \
+  D:/Qt/6.10.2/mingw_64/include/QtGui/qpicture.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qpixmap.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qpointingdevice.h \
@@ -177,16 +180,32 @@ D:/Kavaro_decktop/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/FinancialDashboard_
   D:/Qt/6.10.2/mingw_64/include/QtGui/qrgba64.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qscreen.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qscreen_platform.h \
+  D:/Qt/6.10.2/mingw_64/include/QtGui/qtextdocument.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qtransform.h \
+  D:/Qt/6.10.2/mingw_64/include/QtGui/qvalidator.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qvector2d.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.10.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QComboBox \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/QLabel \
   D:/Qt/6.10.2/mingw_64/include/QtWidgets/QWidget \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractslider.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qcombobox.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qframe.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qlabel.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qrubberband.h \
   D:/Qt/6.10.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qslider.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qstyle.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qstyleoption.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qtabbar.h \
+  D:/Qt/6.10.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

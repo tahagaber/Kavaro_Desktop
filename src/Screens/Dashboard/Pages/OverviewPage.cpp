@@ -88,7 +88,7 @@ OverviewPage::OverviewPage(QWidget* parent) : QWidget(parent) {
     // Legend & Selector
     auto* legend = new QHBoxLayout;
     
-    auto* createPill = [](const QString& labelText, const QString& color) {
+    auto createPill = [](const QString& labelText, const QString& color) {
         auto* pill = new QFrame;
         pill->setStyleSheet("background-color: #0f172a; border-radius: 6px;");
         auto* pl = new QHBoxLayout(pill);

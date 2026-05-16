@@ -8,7 +8,8 @@
 #include "Pages/OverviewPage.h"
 #include "Pages/AllOrdersPage.h"
 #include "Pages/STLUploadsPage.h"
-
+#include "Pages/NotificationsPage.h"
+#include "Pages/SettingsPage.h"
 FinancialDashboard::FinancialDashboard(QWidget* parent) : QMainWindow(parent) {
     setWindowTitle("Kavaro");
     resize(1300, 600);
@@ -44,14 +45,9 @@ FinancialDashboard::FinancialDashboard(QWidget* parent) : QMainWindow(parent) {
     mainContentStack->addWidget(new AllOrdersPage);
     mainContentStack->addWidget(new STLUploadsPage);
     
-    // Mock pages for Revenue & Burn
-    auto* revenueLabel = new QLabel("Revenue Analytics Coming Soon...");
-    revenueLabel->setStyleSheet("color: white; font-size: 20px; font-weight: bold; padding: 40px;");
-    mainContentStack->addWidget(revenueLabel);
-    
-    auto* burnLabel = new QLabel("Burn Rate Analytics Coming Soon...");
-    burnLabel->setStyleSheet("color: white; font-size: 20px; font-weight: bold; padding: 40px;");
-    mainContentStack->addWidget(burnLabel);
+    // Add Notifications & Settings Pages
+    mainContentStack->addWidget(new NotificationsPage);
+    mainContentStack->addWidget(new SettingsPage);
 
     // Wiring Components Together
     connect(navbar, &TopNavbar::toggleSidebarClicked, sidebar, &Sidebar::toggleExpanded);
