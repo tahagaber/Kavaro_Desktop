@@ -8,47 +8,27 @@ TopNavbar::TopNavbar(QWidget* parent) : QFrame(parent) {
     setFixedHeight(70);
     setStyleSheet(R"(
         QFrame {
-            background-color: #0b1120;
+            background-color: #0f172a;
             border-bottom: 1px solid #1e293b;
         }
     )");
     
     auto* navLayout = new QHBoxLayout(this);
-    navLayout->setContentsMargins(30, 0, 30, 0);
-    navLayout->setSpacing(10);
-    
-    // Sidebar toggle (Hamburger)
-    auto* toggleBtn = new QPushButton("☰");
-    toggleBtn->setCursor(Qt::PointingHandCursor);
-    toggleBtn->setStyleSheet(R"(
-        QPushButton {
-            background: transparent;
-            color: #94a3b8;
-            font-size: 20px;
-            border: none;
-            padding: 5px;
-            border-radius: 4px;
-        }
-        QPushButton:hover {
-            color: #f8fafc;
-            background-color: #1e293b;
-        }
-    )");
-    navLayout->addWidget(toggleBtn);
-    navLayout->addSpacing(15);
-
-    connect(toggleBtn, &QPushButton::clicked, this, &TopNavbar::toggleSidebarClicked);
+    navLayout->setContentsMargins(40, 0, 40, 0);
+    navLayout->setSpacing(12);
     
     // Logo
     auto* logo = new QLabel("◆ KAVARO");
     logo->setStyleSheet(R"(
-        color: #ffffff; 
-        font-size: 20px; 
-        font-weight: 900;
-        letter-spacing: 2px;
+        QLabel {
+            color: #ffffff; 
+            font-size: 18px; 
+            font-weight: 800;
+            letter-spacing: 3px;
+            margin-right: 20px;
+        }
     )");
     navLayout->addWidget(logo);
-    navLayout->addSpacing(40);
     
     // Nav buttons
     QStringList navItems = {"Command Center", "Model Lab", "Analytics", "Finance Studio"};
@@ -69,12 +49,9 @@ TopNavbar::TopNavbar(QWidget* parent) : QFrame(parent) {
             }
             QPushButton:hover {
                 color: #f8fafc;
-                background-color: rgba(255, 255, 255, 0.05);
             }
             QPushButton:checked {
-                background-color: rgba(59, 130, 246, 0.15);
                 color: #3b82f6;
-                border: 1px solid rgba(59, 130, 246, 0.3);
             }
         )");
         navLayout->addWidget(btn);
@@ -84,38 +61,40 @@ TopNavbar::TopNavbar(QWidget* parent) : QFrame(parent) {
     
     // Search
     auto* search = new QLineEdit;
-    search->setPlaceholderText("🔍 Search Kavaro systems...");
-    search->setFixedWidth(280);
+    search->setPlaceholderText("Search systems...");
+    search->setFixedWidth(300);
     search->setStyleSheet(R"(
         QLineEdit {
-            background-color: #1e293b;
-            border: 1px solid #334155;
-            border-radius: 8px;
-            padding: 8px 15px;
+            background-color: #111827;
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            padding: 10px 16px;
             color: #f8fafc;
             font-size: 13px;
         }
         QLineEdit:focus {
             border: 1px solid #3b82f6;
+            background-color: #030712;
         }
     )");
     navLayout->addWidget(search);
-    navLayout->addSpacing(20);
+    navLayout->addSpacing(25);
     
     // User profile
     auto* userBtn = new QPushButton("Admin");
     userBtn->setCursor(Qt::PointingHandCursor);
     userBtn->setStyleSheet(R"(
         QPushButton {
-            background-color: #e2e8f0;
-            color: #0f172a;
-            font-weight: bold;
-            border-radius: 16px;
-            padding: 6px 20px;
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #3b82f6, stop:1 #2563eb);
+            color: white;
+            font-weight: 700;
+            border-radius: 12px;
+            padding: 10px 24px;
             font-size: 13px;
+            border: none;
         }
         QPushButton:hover {
-            background-color: #ffffff;
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #60a5fa, stop:1 #3b82f6);
         }
     )");
     navLayout->addWidget(userBtn);
